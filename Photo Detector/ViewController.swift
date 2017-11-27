@@ -17,7 +17,7 @@ UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate 
     @IBOutlet weak var detectedLabel: UILabel!
     @IBOutlet weak var sureLabel: UILabel!
     
-    let mylib = VGG16()
+    let mylib = Resnet50()
     let imagePicker = UIImagePickerController()
     
     

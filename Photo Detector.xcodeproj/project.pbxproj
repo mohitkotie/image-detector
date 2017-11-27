@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63DC681F1FB62FA20078AFF6 /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63DC681D1FB62FA20078AFF6 /* VGG16.mlmodel */; };
+		6348784E1FCCA751002CBD60 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6348784D1FCCA751002CBD60 /* Resnet50.mlmodel */; };
 		63F0A2461FB4D1FA00A9D534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0A2451FB4D1FA00A9D534 /* AppDelegate.swift */; };
 		63F0A2481FB4D1FA00A9D534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0A2471FB4D1FA00A9D534 /* ViewController.swift */; };
 		63F0A24B1FB4D1FA00A9D534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0A2491FB4D1FA00A9D534 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63DC681D1FB62FA20078AFF6 /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		6348784D1FCCA751002CBD60 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		63F0A2421FB4D1FA00A9D534 /* Photo Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F0A2451FB4D1FA00A9D534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63F0A2471FB4D1FA00A9D534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,12 +56,12 @@
 		63F0A2441FB4D1FA00A9D534 /* Photo Detector */ = {
 			isa = PBXGroup;
 			children = (
-				63DC681D1FB62FA20078AFF6 /* VGG16.mlmodel */,
 				63F0A2451FB4D1FA00A9D534 /* AppDelegate.swift */,
 				63F0A2471FB4D1FA00A9D534 /* ViewController.swift */,
 				63F0A2491FB4D1FA00A9D534 /* Main.storyboard */,
 				63F0A24C1FB4D1FA00A9D534 /* Assets.xcassets */,
 				63F0A24E1FB4D1FA00A9D534 /* LaunchScreen.storyboard */,
+				6348784D1FCCA751002CBD60 /* Resnet50.mlmodel */,
 				63F0A2511FB4D1FA00A9D534 /* Info.plist */,
 			);
 			path = "Photo Detector";
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F0A2481FB4D1FA00A9D534 /* ViewController.swift in Sources */,
+				6348784E1FCCA751002CBD60 /* Resnet50.mlmodel in Sources */,
 				63F0A2461FB4D1FA00A9D534 /* AppDelegate.swift in Sources */,
-				63DC681F1FB62FA20078AFF6 /* VGG16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
